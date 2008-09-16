@@ -9,6 +9,14 @@ Based on partial ports done by Salim Nair and Martin Chernenkoff.
   * All fixture names are converted to Delphi convention with _T_ at the beginning, e.g. ActionFixture is TActionFixture.
   * All custom fixtures definitions needs to be surrounded by {$METHODINFO ON} and {$METHODINFO OFF}
   * Fields used in fixture needs to be defined as _published_
+  * Custom fixture needs to be registered in _initialization_ section:
+{{{
+initialization
+  RegisterClass(TBrowser);
+
+finalization
+  UnRegisterClass(TBrowser);
+}}}
   * Data are stored internally using Variant type
   * Based on Fit 20070619 
   * Using RTTI helper functions written by David Glassborow (http://davidglassborow.blogspot.com/2006/05/class-rtti.html)
