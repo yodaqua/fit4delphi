@@ -1,12 +1,12 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
 Fit library is available as BPL. It makes it available for Delphi and Borland C++ Builder applications. It was compiled with Delphi 2006, but it should works with any Delphi starting with version 7.
-
+Based on partial ports done by Salim Nair and Martin Chernenkoff.
 
 = Details =
 
 * All fixture names are converted to Delphi convention with _T_ at the beginning, e.g. ActionFixture is TActionFixture.
 * All custom fixtures definitions needs to be surrounded by {$METHODINFO ON} and {$METHODINFO OFF}
 * Data are stored internally using Variant type
+* Based on Fit 20070619 
+* Using RTTI helper functions written by David Glassborow (http://davidglassborow.blogspot.com/2006/05/class-rtti.html)
