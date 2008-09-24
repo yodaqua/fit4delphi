@@ -2,7 +2,6 @@
 
 Fit library is available as BPL. It makes it available for Delphi and Borland C++ Builder applications. It was compiled with Delphi 2006, but it should works with any Delphi starting with version 7.
 
-Based on partial ports done by Salim Nair and Martin Chernenkoff.
 
 = Details =
 
