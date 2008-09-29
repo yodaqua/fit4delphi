@@ -2,10 +2,6 @@
 
 = Installation and Building =
 
-  # Define an environment variable (either in delphi/tools/environment or system environment) *DelphiFit*. Define it to point to the root folder where you have expanded the zip files into
-  {{{
-	e.g DelphiFit="c:\Source\fit4delphi"
-  }}}
   # Load the fitServers.bpg project group to delphi
   # Do a build all.
 
